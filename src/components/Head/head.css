@@ -1,0 +1,27 @@
+.summary__head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.summary__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.summary__head-property, .summary__head-room {
+  flex: 1;
+}
+
+.summary__name {
+  font-size: 1.2em;
+  margin: 0 0 5px;
+}
+
+.summary__address, .summary__city, .summary__rating, .summary__room-type, .summary__room-price {
+  font-size: 0.9em;
+  margin: 2px 0;
+}
